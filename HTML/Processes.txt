@@ -1,0 +1,221 @@
+222 RUNNING_PROCCESES
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 168928 13028 ?        Ss   Jan03   0:41 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Jan03   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Jan03   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Jan03   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/0:0H-kblockd]
+root           9  0.0  0.0      0     0 ?        I<   Jan03   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    Jan03   0:07 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/2]
+root          24  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/2:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/3]
+root          28  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/3]
+root          29  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/3]
+root          30  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/3]
+root          32  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/3:0H-kblockd]
+root          33  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/4]
+root          34  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/4]
+root          35  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/4]
+root          36  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/4]
+root          38  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/4:0H-kblockd]
+root          39  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/5]
+root          40  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/5]
+root          41  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/5]
+root          42  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/5]
+root          44  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/5:0H]
+root          45  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/6]
+root          46  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/6]
+root          47  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/6]
+root          48  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/6]
+root          50  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/6:0H-kblockd]
+root          51  0.0  0.0      0     0 ?        S    Jan03   0:00 [cpuhp/7]
+root          52  0.0  0.0      0     0 ?        S    Jan03   0:00 [idle_inject/7]
+root          53  0.0  0.0      0     0 ?        S    Jan03   0:00 [migration/7]
+root          54  0.0  0.0      0     0 ?        S    Jan03   0:00 [ksoftirqd/7]
+root          56  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/7:0H-kblockd]
+root          57  0.0  0.0      0     0 ?        S    Jan03   0:00 [kdevtmpfs]
+root          58  0.0  0.0      0     0 ?        I<   Jan03   0:00 [netns]
+root          59  0.0  0.0      0     0 ?        S    Jan03   0:00 [rcu_tasks_kthre]
+root          60  0.0  0.0      0     0 ?        S    Jan03   0:00 [kauditd]
+root          61  0.0  0.0      0     0 ?        S    Jan03   0:00 [khungtaskd]
+root          62  0.0  0.0      0     0 ?        S    Jan03   0:00 [oom_reaper]
+root          63  0.0  0.0      0     0 ?        I<   Jan03   0:00 [writeback]
+root          64  0.0  0.0      0     0 ?        S    Jan03   0:00 [kcompactd0]
+root          65  0.0  0.0      0     0 ?        SN   Jan03   0:00 [ksmd]
+root          66  0.0  0.0      0     0 ?        SN   Jan03   0:00 [khugepaged]
+root         114  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kintegrityd]
+root         115  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kblockd]
+root         116  0.0  0.0      0     0 ?        I<   Jan03   0:00 [blkcg_punt_bio]
+root         117  0.0  0.0      0     0 ?        I<   Jan03   0:00 [tpm_dev_wq]
+root         118  0.0  0.0      0     0 ?        I<   Jan03   0:00 [ata_sff]
+root         119  0.0  0.0      0     0 ?        I<   Jan03   0:00 [md]
+root         120  0.0  0.0      0     0 ?        I<   Jan03   0:00 [edac-poller]
+root         121  0.0  0.0      0     0 ?        I<   Jan03   0:00 [devfreq_wq]
+root         122  0.0  0.0      0     0 ?        S    Jan03   0:00 [watchdogd]
+root         125  0.0  0.0      0     0 ?        S    Jan03   0:00 [kswapd0]
+root         126  0.0  0.0      0     0 ?        S    Jan03   0:00 [ecryptfs-kthrea]
+root         128  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kthrotld]
+root         129  0.0  0.0      0     0 ?        I<   Jan03   0:00 [acpi_thermal_pm]
+root         135  0.0  0.0      0     0 ?        S    Jan03   0:00 [scsi_eh_0]
+root         136  0.0  0.0      0     0 ?        I<   Jan03   0:00 [scsi_tmf_0]
+root         137  0.0  0.0      0     0 ?        S    Jan03   0:00 [scsi_eh_1]
+root         138  0.0  0.0      0     0 ?        I<   Jan03   0:00 [scsi_tmf_1]
+root         140  0.0  0.0      0     0 ?        I<   Jan03   0:00 [vfio-irqfd-clea]
+root         142  0.0  0.0      0     0 ?        I<   Jan03   0:00 [ipv6_addrconf]
+root         151  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kstrp]
+root         154  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/u17:0]
+root         168  0.0  0.0      0     0 ?        I<   Jan03   0:00 [charger_manager]
+root         215  0.0  0.0      0     0 ?        S    Jan03   0:00 [scsi_eh_2]
+root         216  0.0  0.0      0     0 ?        I<   Jan03   0:00 [scsi_tmf_2]
+root         218  0.0  0.0      0     0 ?        I<   Jan03   0:00 [cryptd]
+root         261  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/4:1H-kblockd]
+root         296  0.0  0.0      0     0 ?        I<   Jan03   0:00 [raid5wq]
+root         322  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/0:1H-kblockd]
+root         342  0.0  0.0      0     0 ?        S    Jan03   0:04 [jbd2/sda1-8]
+root         343  0.0  0.0      0     0 ?        I<   Jan03   0:00 [ext4-rsv-conver]
+root         344  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/7:1H-kblockd]
+root         372  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/2:1H-kblockd]
+root         377  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/6:1H-kblockd]
+root         382  0.0  0.0      0     0 ?        S    Jan03   0:00 [hwrng]
+root         384  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/3:1H-kblockd]
+root         391  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/5:1H-kblockd]
+root         393  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kworker/1:1H-kblockd]
+root         423  0.0  0.1  51640 16716 ?        S<s  Jan03   0:05 /lib/systemd/systemd-journald
+root         454  0.0  0.0  21956  7764 ?        Ss   Jan03   0:06 /lib/systemd/systemd-udevd
+root         582  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kaluad]
+root         583  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kmpath_rdacd]
+root         584  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kmpathd]
+root         585  0.0  0.0      0     0 ?        I<   Jan03   0:00 [kmpath_handlerd]
+root         595  0.0  0.0      0     0 ?        S<   Jan03   0:00 [loop0]
+root         600  0.0  0.0      0     0 ?        S<   Jan03   0:00 [loop1]
+systemd+     629  0.0  0.0  90232  6072 ?        Ssl  Jan03   0:00 /lib/systemd/systemd-timesyncd
+systemd+     697  0.0  0.0  26740  7768 ?        Ss   Jan03   0:00 /lib/systemd/systemd-networkd
+systemd+     712  0.0  0.0  23900 12048 ?        Ss   Jan03   0:00 /lib/systemd/systemd-resolved
+root         809  0.0  0.0 241032  9380 ?        Ssl  Jan03   0:02 /usr/lib/accountsservice/accounts-daemon
+root         812  0.0  0.0   8536  3044 ?        Ss   Jan03   0:00 /usr/sbin/cron -f
+message+     814  0.0  0.0   9068  5988 ?        Ss   Jan03   0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         823  0.0  0.0  81908  3780 ?        Ssl  Jan03   0:02 /usr/sbin/irqbalance --foreground
+root         832  0.0  0.0  16876  8344 ?        Ss   Jan03   0:03 /lib/systemd/systemd-logind
+root         835  0.0  0.0 394972 14048 ?        Ssl  Jan03   0:00 /usr/lib/udisks2/udisksd
+daemon       836  0.0  0.0   3792  2288 ?        Ss   Jan03   0:00 /usr/sbin/atd -f
+root         864  0.0  0.0   7352  2264 ttyS0    Ss+  Jan03   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         884  0.0  0.0   5828  1844 tty1     Ss+  Jan03   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         912  0.0  0.1 108108 20664 ?        Ssl  Jan03   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         951  0.0  0.0  12176  7492 ?        Ss   Jan03   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       12099  0.0  0.0 234728  6056 ?        Ssl  Jan03   0:00 /usr/libexec/switcheroo-control
+root       13133  0.0  0.0 239896 12708 ?        Ssl  Jan03   0:04 /usr/lib/policykit-1/polkitd --no-debug
+root       13389  0.0  0.0  13676  5508 ?        Ss   Jan03   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi      13692  0.0  0.0   8532  3504 ?        Ss   Jan03   0:00 avahi-daemon: running [tnap-dev-vm-5-14.local]
+avahi      13693  0.0  0.0   8340   320 ?        S    Jan03   0:00 avahi-daemon: chroot helper
+root       14072  0.0  0.1 263804 21172 ?        Ssl  Jan03   0:02 /usr/sbin/NetworkManager --no-daemon
+root       14496  0.0  0.0  25892  8776 ?        Ss   Jan03   0:00 /usr/sbin/cupsd -l
+root       14598  0.0  0.0 319208 13980 ?        Ssl  Jan03   0:00 /usr/sbin/ModemManager
+root       14753  0.0  0.0 176348 12580 ?        Ssl  Jan03   0:00 /usr/sbin/cups-browsed
+ubuntu     26850  0.0  0.3 169332 64368 ?        S    Jan03   0:04 /usr/bin/Xtigervnc :1 -desktop tnap-dev-vm-5-14:1 (ubuntu) -auth /home/ubuntu/.Xauthority -geometry 1280x800 -depth 16 -rfbwait 30000 -rfbauth /home/ubuntu/.vnc/passwd -rfbport 5901 -pn -localhost -SecurityTypes VncAuth -alwaysshared :1
+ubuntu     26855  0.0  0.3 394236 59732 ?        Sl   Jan03   0:00 xfce4-session
+ubuntu     26868  0.0  0.0   7028  2296 ?        S    Jan03   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
+ubuntu     26869  0.0  0.0   7784  3968 ?        Ss   Jan03   0:14 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+ubuntu     26871  0.0  0.0 305316  6768 ?        Sl   Jan03   0:00 /usr/libexec/at-spi-bus-launcher
+ubuntu     26876  0.0  0.0   7236  4400 ?        S    Jan03   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ubuntu     26882  0.0  0.0 230204  5916 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+ubuntu     26889  0.0  0.0 162772  6556 ?        Sl   Jan03   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ubuntu     26895  0.0  0.0   6032   456 ?        Ss   Jan03   0:00 /usr/bin/ssh-agent -s
+ubuntu     26898  0.0  0.0   9216   276 ?        Ss   Jan03   0:00 /usr/bin/gpg-agent --sh --daemon --write-env-file /home/ubuntu/.cache/gpg-agent-info
+ubuntu     26899  0.0  0.2 238896 37864 ?        Sl   Jan03   0:01 xfwm4
+ubuntu     26903  0.0  0.0 238860  7752 ?        Sl   Jan03   0:00 /usr/libexec/gvfsd
+ubuntu     26911  0.0  0.1  56736 27812 ?        S    Jan03   0:11 /usr/bin/python3 /usr/bin/websockify -D --web=/usr/share/novnc/ --cert=/etc/ssl/novnc.pem 6080 localhost:5901
+ubuntu     26959  0.0  0.1 226984 20984 ?        Ssl  Jan03   0:00 xfsettingsd
+ubuntu     26960  0.0  0.1 271528 30604 ?        Sl   Jan03   0:02 xfce4-panel
+root       26963  0.0  0.0 251208  9664 ?        Ssl  Jan03   0:00 /usr/lib/upower/upowerd
+ubuntu     26989  0.0  0.1 341228 22604 ?        Sl   Jan03   0:00 Thunar --daemon
+ubuntu     26995  0.0  0.2 309832 40196 ?        Sl   Jan03   0:02 xfdesktop
+ubuntu     26998  0.0  0.1 192372 22380 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 14680072 systray Notification Area Area where notification icons appear
+ubuntu     26999  0.1  0.2 309528 38656 ?        Sl   Jan03   1:24 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 14680073 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+ubuntu     27000  0.0  0.2 238352 36624 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 9 14680074 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+ubuntu     27001  0.0  0.2 238360 34408 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 14680075 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+ubuntu     27002  0.0  0.1 194212 23124 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 14 14680076 actions Action Buttons Log out, lock or other system actions
+ubuntu     27004  0.0  0.2  56040 38072 ?        S    Jan03   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+ubuntu     27010  0.0  0.3 638196 51120 ?        Sl   Jan03   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu     27027  0.0  0.0 189188 14284 ?        Ssl  Jan03   0:00 xfce4-power-manager
+ubuntu     27030  0.0  0.0 851388  8976 ?        Sl   Jan03   0:00 xiccd
+ubuntu     27040  0.0  0.2 425812 33800 ?        Sl   Jan03   0:00 nm-applet
+ubuntu     27043  0.0  0.0 156120  5528 ?        Sl   Jan03   0:00 /usr/libexec/dconf-service
+colord     27044  0.0  0.0 245376 14360 ?        Ssl  Jan03   0:00 /usr/libexec/colord
+ubuntu     27055  0.0  0.0 236036  6276 ?        Sl   Jan03   0:00 /usr/libexec/geoclue-2.0/demos/agent
+ubuntu     27071  0.0  0.1 262988 17208 ?        Sl   Jan03   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ubuntu     27076  0.0  0.1 872792 25884 ?        Sl   Jan03   0:00 /usr/libexec/evolution-source-registry
+ubuntu     27107  0.0  0.2 552456 34952 ?        Sl   Jan03   0:00 /usr/libexec/goa-daemon
+ubuntu     27114  0.0  0.0 313012  9160 ?        Sl   Jan03   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu     27123  0.0  0.0 313900  8752 ?        Sl   Jan03   0:00 /usr/libexec/goa-identity-service
+ubuntu     27130  0.0  0.0 235020  6032 ?        Sl   Jan03   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ubuntu     27136  0.0  0.0 315868  8784 ?        Sl   Jan03   0:04 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu     27139  0.0  0.1 911536 30472 ?        Sl   Jan03   0:00 /usr/libexec/evolution-calendar-factory
+ubuntu     27146  0.0  0.0 234828  5980 ?        Sl   Jan03   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ubuntu     27152  0.0  0.0 237104  6508 ?        Sl   Jan03   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ubuntu     27172  0.0  0.1 819740 29660 ?        Sl   Jan03   0:00 /usr/libexec/evolution-addressbook-factory
+ubuntu     27180  0.0  0.0 161396  6324 ?        Sl   Jan03   0:00 /usr/libexec/gvfsd-metadata
+ubuntu     27183  0.0  0.0 312972  7836 ?        Sl   Jan03   0:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+root       33701  0.1  0.2 1791224 42116 ?       Ssl  Jan03   1:15 /usr/bin/containerd
+root       33871  0.0  0.3 1742092 65440 ?       Ssl  Jan03   0:11 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       33906  0.0  0.0   2488   580 ?        S    Jan03   0:00 bpfilter_umh
+ubuntu     35106  0.0  0.0 239172  8324 ?        Sl   Jan03   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+root       35192  0.0  0.0      0     0 ?        I    Jan03   0:02 [kworker/1:0-events]
+rtkit      35212  0.0  0.0 152928  2984 ?        SNsl Jan03   0:00 /usr/libexec/rtkit-daemon
+root       35479  0.0  0.0      0     0 ?        S<   Jan03   0:00 [loop3]
+root       35647  0.0  0.0      0     0 ?        S<   Jan03   0:00 [loop4]
+root       36095  0.0  0.0      0     0 ?        S<   Jan03   0:00 [loop5]
+root       37227  0.0  0.0      0     0 ?        I    Jan03   0:00 [kworker/4:2-events]
+root       42884  0.0  0.0      0     0 ?        I    Jan03   0:01 [kworker/7:2-events]
+root       62733  0.0  0.0      0     0 ?        I<   07:04   0:00 [xfsalloc]
+root       62734  0.0  0.0      0     0 ?        I<   07:04   0:00 [xfs_mru_cache]
+root       62749  0.0  0.0      0     0 ?        I    07:04   0:00 [kworker/0:2-events]
+root       65669  0.0  0.0      0     0 ?        I    07:06   0:00 [kworker/6:1-events]
+root       65818  0.0  0.1 280196 17996 ?        SLsl 07:06   0:01 /sbin/multipathd -d -s
+root       68080  0.0  0.0      0     0 ?        I    07:07   0:00 [kworker/5:4-events]
+root       91080  0.0  0.2 1392064 37844 ?       Ssl  07:13   0:01 /usr/lib/snapd/snapd
+root       91285  0.0  0.0      0     0 ?        I    07:13   0:00 [kworker/6:2-cgroup_destroy]
+root       91850  0.0  0.1  29904 18352 ?        Ss   07:13   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+uuidd      95217  0.0  0.0   9744  1004 ?        Ss   07:15   0:00 /usr/sbin/uuidd --socket-activation
+root       96874  0.0  0.0      0     0 ?        I    07:48   0:00 [kworker/2:1-events]
+ubuntu     97136  0.0  0.0  18380  9788 ?        Ss   08:02   0:00 /lib/systemd/systemd --user
+ubuntu     97140  0.0  0.0 170320  4840 ?        S    08:02   0:00 (sd-pam)
+root       97145  0.0  0.0      0     0 ?        I    08:02   0:00 [kworker/5:0-events]
+ubuntu     97148  0.0  0.0 279484 14428 ?        Ssl  08:02   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ubuntu     97167  0.0  0.0   7108  3964 ?        Ss   08:02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       97272  0.0  0.0  13852  9188 ?        Ss   08:08   0:00 sshd: ubuntu [priv]
+ubuntu     97358  0.0  0.0  13988  6020 ?        S    08:08   0:00 sshd: ubuntu@pts/1
+ubuntu     97359  0.0  0.0  10264  5464 pts/1    Ss   08:08   0:00 -bash
+syslog     99138  0.0  0.0 224520  4428 ?        Ssl  08:15   0:00 /usr/sbin/rsyslogd -n -iNONE
+root       99546  0.0  0.0      0     0 ?        I    08:15   0:00 [kworker/0:1-events]
+root      100011  0.0  0.0      0     0 ?        I    08:38   0:00 [kworker/2:2]
+root      100014  0.0  0.0      0     0 ?        I    08:38   0:00 [kworker/1:2]
+root      100567  0.0  0.0  38072  4712 ?        Ss   08:38   0:00 /usr/lib/postfix/sbin/master -w
+postfix   100568  0.0  0.0  38340  6188 ?        S    08:38   0:00 pickup -l -t unix -u -c
+postfix   100569  0.0  0.0  38532  6104 ?        S    08:38   0:00 qmgr -l -t unix -u
+root      100587  0.0  0.0      0     0 ?        I    08:38   0:00 [kworker/7:0-events]
+postfix   100621  0.0  0.0  42140  8992 ?        S    08:39   0:00 tlsmgr -l -t unix -u -c
+root      101382  0.0  0.0      0     0 ?        I    08:58   0:00 [kworker/u16:0-events_unbound]
+root      101392  0.0  0.0      0     0 ?        I    09:06   0:00 [kworker/u16:1-events_unbound]
+root      101395  0.0  0.0      0     0 ?        I    09:06   0:00 [kworker/3:0-events]
+root      101856  0.0  0.0      0     0 ?        I    09:25   0:00 [kworker/4:0]
+root      102132  0.0  0.0      0     0 ?        I    09:39   0:00 [kworker/3:2-events]
+root      102149  0.0  0.0  13848  9204 ?        Ss   09:39   0:00 sshd: ubuntu [priv]
+ubuntu    102237  0.0  0.0  13988  6060 ?        S    09:39   0:00 sshd: ubuntu@pts/2
+ubuntu    102238  0.0  0.0  10032  5280 pts/2    Ss+  09:39   0:00 -bash
+root      102825  0.0  0.0      0     0 ?        I    09:50   0:00 [kworker/u16:2-events_power_efficient]
+root      102855  0.0  0.0      0     0 ?        I    09:50   0:00 [kworker/3:1-events]
+ubuntu    102928  0.0  0.0  10264  3732 pts/1    S+   09:54   0:00 -bash
+ubuntu    102942  0.0  0.0  10808  3560 pts/1    R+   09:54   0:00 ps -aux

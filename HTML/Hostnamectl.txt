@@ -1,0 +1,9 @@
+   Static hostname: tnap-dev-vm-5-14
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 47d114cee91f4beaa2f519bbac733b97
+           Boot ID: 4ed6d77bf58b4c5c8408fc5db8c88d21
+    Virtualization: kvm
+  Operating System: Ubuntu 20.04.3 LTS
+            Kernel: Linux 5.4.0-96-generic
+      Architecture: x86-64

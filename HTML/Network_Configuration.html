@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="ISO-8859-1">
+<title>Network</title>
+<script>
+function myFunction(){
+  // Declare variables
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who do not match the search query
+  for (i = 1; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td") ;
+    for(j=0 ; j<td.length ; j++)
+    {
+      var tdata = td[j] ;
+      if (tdata) {
+        if (tdata.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+          break ;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+}
+</script>
+
+<style type="text/css">
+
+table, th, td {
+border: 1px solid black;  // changing-colors
+// word-wrap: break-word;
+}
+
+tr:first-child {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {background: #eef}  // changing-colors
+tr:nth-child(odd) {background: #fee}   // changing-colors
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url("search.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  width: 94%;
+  font-size: 16px;
+  padding: 8px 20px 8px 40px;
+  border:2px solid Tomato;  // changing-colors
+  margin-bottom: 18px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  border: 1px solid #ddd;  // changing-colors
+  width: 100%;
+  margin-top: 18px;
+  // Remove the // in front of the below two lines, to get fixed-width
+  // table-layout: fixed;
+  // word-wrap: break-word;
+  // font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;  // changing-colors
+}
+
+#myTable tr:first-child:hover, #myTable tr:hover {
+  background-color: DarkKhaki;    // changing-colors
+}
+
+#myTable tr:first-child {
+  background-color: DarkKhaki;    // changing-colors
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<h2 style="text-align:center;background-color:DodgerBlue;color:White;">Network Configuration</h2>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search in all Fields...." title="Type in a Search String" autofocus="autofocus">
+<table id="myTable">
+	<tr>
+		<th>docker0:</th>
+		<th>flags=4099<UP,BROADCAST,MULTICAST></th>
+		<th>mtu</th>
+		<th>1500</th>
+	</tr>
+	<tr>
+		<td>inet</td>
+		<td>172.17.0.1</td>
+		<td>netmask</td>
+		<td>255.255.0.0</td>
+		<td>broadcast</td>
+		<td>172.17.255.255</td>
+	</tr>
+	<tr>
+		<td>ether</td>
+		<td>02:42:d6:9d:38:d1</td>
+		<td>txqueuelen</td>
+		<td>0</td>
+		<td>(Ethernet)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>packets</td>
+		<td>0</td>
+		<td>bytes</td>
+		<td>0</td>
+		<td>(0.0</td>
+		<td>B)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>frame</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>packets</td>
+		<td>0</td>
+		<td>bytes</td>
+		<td>0</td>
+		<td>(0.0</td>
+		<td>B)</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>carrier</td>
+		<td>0</td>
+		<td>collisions</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>ens3:</td>
+		<td>flags=4163<UP,BROADCAST,RUNNING,MULTICAST></td>
+		<td>mtu</td>
+		<td>1450</td>
+	</tr>
+	<tr>
+		<td>inet</td>
+		<td>192.168.111.138</td>
+		<td>netmask</td>
+		<td>255.255.255.0</td>
+		<td>broadcast</td>
+		<td>192.168.111.255</td>
+	</tr>
+	<tr>
+		<td>inet6</td>
+		<td>fe80::f816:3eff:fedb:7531</td>
+		<td>prefixlen</td>
+		<td>64</td>
+		<td>scopeid</td>
+		<td>0x20<link></td>
+	</tr>
+	<tr>
+		<td>ether</td>
+		<td>fa:16:3e:db:75:31</td>
+		<td>txqueuelen</td>
+		<td>1000</td>
+		<td>(Ethernet)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>packets</td>
+		<td>171599</td>
+		<td>bytes</td>
+		<td>1144352224</td>
+		<td>(1.1</td>
+		<td>GB)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>frame</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>packets</td>
+		<td>63735</td>
+		<td>bytes</td>
+		<td>6693752</td>
+		<td>(6.6</td>
+		<td>MB)</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>carrier</td>
+		<td>0</td>
+		<td>collisions</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>lo:</td>
+		<td>flags=73<UP,LOOPBACK,RUNNING></td>
+		<td>mtu</td>
+		<td>65536</td>
+	</tr>
+	<tr>
+		<td>inet</td>
+		<td>127.0.0.1</td>
+		<td>netmask</td>
+		<td>255.0.0.0</td>
+	</tr>
+	<tr>
+		<td>inet6</td>
+		<td>::1</td>
+		<td>prefixlen</td>
+		<td>128</td>
+		<td>scopeid</td>
+		<td>0x10<host></td>
+	</tr>
+	<tr>
+		<td>loop</td>
+		<td>txqueuelen</td>
+		<td>1000</td>
+		<td>(Local</td>
+		<td>Loopback)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>packets</td>
+		<td>2167</td>
+		<td>bytes</td>
+		<td>165607</td>
+		<td>(165.6</td>
+		<td>KB)</td>
+	</tr>
+	<tr>
+		<td>RX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>frame</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>packets</td>
+		<td>2167</td>
+		<td>bytes</td>
+		<td>165607</td>
+		<td>(165.6</td>
+		<td>KB)</td>
+	</tr>
+	<tr>
+		<td>TX</td>
+		<td>errors</td>
+		<td>0</td>
+		<td>dropped</td>
+		<td>0</td>
+		<td>overruns</td>
+		<td>0</td>
+		<td>carrier</td>
+		<td>0</td>
+		<td>collisions</td>
+		<td>0</td>
+	</tr>
+</table></body></html>

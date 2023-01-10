@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="ISO-8859-1">
+<title>Disk Space</title>
+<script>
+function myFunction(){
+  // Declare variables
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who do not match the search query
+  for (i = 1; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td") ;
+    for(j=0 ; j<td.length ; j++)
+    {
+      var tdata = td[j] ;
+      if (tdata) {
+        if (tdata.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+          break ;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+}
+</script>
+
+<style type="text/css">
+
+table, th, td {
+border: 1px solid black;  // changing-colors
+// word-wrap: break-word;
+}
+
+tr:first-child {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {background: #eef}  // changing-colors
+tr:nth-child(odd) {background: #fee}   // changing-colors
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url("search.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  width: 94%;
+  font-size: 16px;
+  padding: 8px 20px 8px 40px;
+  border:2px solid Tomato;  // changing-colors
+  margin-bottom: 18px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  border: 1px solid #ddd;  // changing-colors
+  width: 100%;
+  margin-top: 18px;
+  // Remove the // in front of the below two lines, to get fixed-width
+  // table-layout: fixed;
+  // word-wrap: break-word;
+  // font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;  // changing-colors
+}
+
+#myTable tr:first-child:hover, #myTable tr:hover {
+  background-color: DarkKhaki;    // changing-colors
+}
+
+#myTable tr:first-child {
+  background-color: DarkKhaki;    // changing-colors
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<h2 style="text-align:center;background-color:DodgerBlue;color:White;">Avaialbe Disk Space</h2>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search in all Fields...." title="Type in a Search String" autofocus="autofocus">
+<table id="myTable">
+	<tr>
+		<th>Filesystem</th>
+		<th>Size</th>
+		<th>Used</th>
+		<th>Avail</th>
+		<th>Use%</th>
+		<th>Mounted</th>
+		<th>on</th>
+	</tr>
+	<tr>
+		<td>udev</td>
+		<td>7.9G</td>
+		<td>0</td>
+		<td>7.9G</td>
+		<td>0%</td>
+		<td>/dev</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>1.6G</td>
+		<td>1.3M</td>
+		<td>1.6G</td>
+		<td>1%</td>
+		<td>/run</td>
+	</tr>
+	<tr>
+		<td>/dev/sda1</td>
+		<td>155G</td>
+		<td>5.1G</td>
+		<td>150G</td>
+		<td>4%</td>
+		<td>/</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>7.9G</td>
+		<td>0</td>
+		<td>7.9G</td>
+		<td>0%</td>
+		<td>/dev/shm</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>5.0M</td>
+		<td>0</td>
+		<td>5.0M</td>
+		<td>0%</td>
+		<td>/run/lock</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>7.9G</td>
+		<td>0</td>
+		<td>7.9G</td>
+		<td>0%</td>
+		<td>/sys/fs/cgroup</td>
+	</tr>
+	<tr>
+		<td>/dev/loop0</td>
+		<td>62M</td>
+		<td>62M</td>
+		<td>0</td>
+		<td>100%</td>
+		<td>/snap/core20/1270</td>
+	</tr>
+	<tr>
+		<td>/dev/sda15</td>
+		<td>105M</td>
+		<td>5.2M</td>
+		<td>100M</td>
+		<td>5%</td>
+		<td>/boot/efi</td>
+	</tr>
+	<tr>
+		<td>/dev/loop1</td>
+		<td>68M</td>
+		<td>68M</td>
+		<td>0</td>
+		<td>100%</td>
+		<td>/snap/lxd/21835</td>
+	</tr>
+	<tr>
+		<td>/dev/loop3</td>
+		<td>50M</td>
+		<td>50M</td>
+		<td>0</td>
+		<td>100%</td>
+		<td>/snap/snapd/17883</td>
+	</tr>
+	<tr>
+		<td>/dev/loop4</td>
+		<td>64M</td>
+		<td>64M</td>
+		<td>0</td>
+		<td>100%</td>
+		<td>/snap/core20/1778</td>
+	</tr>
+	<tr>
+		<td>/dev/loop5</td>
+		<td>92M</td>
+		<td>92M</td>
+		<td>0</td>
+		<td>100%</td>
+		<td>/snap/lxd/24061</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>1.6G</td>
+		<td>4.0K</td>
+		<td>1.6G</td>
+		<td>1%</td>
+		<td>/run/user/1000</td>
+	</tr>
+</table></body></html>
